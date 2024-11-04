@@ -47,3 +47,32 @@
     background-color: blue;
 }
 
+@media (width : 300px) {
+    .responsive-div {
+    background-color : green;
+    }
+    }
+
+ .responsive-div2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+ }
+
+ @media (min-width: 600px) {
+    .responsive-div2 {
+        background-color: blue;
+    }
+}
+
+.responsive-div3{
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .responsive-div3 {
+        background-color: pink;
+    }
+}
